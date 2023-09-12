@@ -1,0 +1,6 @@
+print("Diviciparu skaitļa ciparu summas aprēķins\nIevadiet divciparu skatili!")
+cipars1 = int(input())
+print("Divciparu skaitlis =",cipars1 )
+print("Pirmais cipars =", str(cipars1)[0])
+print("Pirmais cipars =", str(cipars1)[1])
+print(int(str(cipars1)[1])+int(str(cipars1)[0]))
