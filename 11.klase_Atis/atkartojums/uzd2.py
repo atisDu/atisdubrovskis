@@ -12,9 +12,12 @@ def pieivienot_masinu(nsk, marka, gads):
     print(f"Automobilis {nsk} pievienots sarakstam.")
 
 def paradit_masinas():
-    for mobilis in masinas:
-        print({mobilis['nosaukums']},{mobilis['marka']},{mobilis['gads']})
-    
+    if masinas:
+        print("\nAutomašīnas sarakstā: ")
+        for mobilis in masinas:
+            print({mobilis['nosaukums']},{mobilis['marka']},{mobilis['gads']})
+    else:
+        print("\nNav automašīnas sarakstā")
 
 def atjaunot_masinu(nsk,marka,gads):
     for mobilis in masinas:
