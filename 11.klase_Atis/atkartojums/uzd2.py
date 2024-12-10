@@ -1,7 +1,7 @@
 masinas = []
 
 
-def pieivienot_masinu(nsk, marka, gads):
+def pievienot_masinu(nsk, marka, gads):
     masinas.append({
         'nosaukums':nsk,
         'marka':marka,
@@ -49,7 +49,7 @@ def izvelne():
                 nsk = input("Ievadi auto nosaukumu: ")
                 marka = input("Ievadi auto marku: ")
                 gads = input("ievadi auto ražošanas gadu: ")
-                pieivienot_masinu(nsk,marka,gads)
+                pievienot_masinu(nsk,marka,gads)
             case 2:
                 paradit_masinas()
             case 3:
