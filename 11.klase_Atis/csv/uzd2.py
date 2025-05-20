@@ -29,6 +29,7 @@ try:
 except FileNotFoundError:
     print(f"Fails {csv_file} neeksistē!")
     exit()
+    
 #parbaudit vai alga ir ielikts ka skaitlis derigs
 #ja nav tad bridinajumu
 #ja fails darbinieki.csv neeksistē, tad izdrukāt kļūdu
